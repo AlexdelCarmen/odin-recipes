@@ -106,12 +106,10 @@ a {
 
 .recipe-description-card:hover .description{
     color: white;
-    background-color: rgba(0,0,0,.8);
 } 
 
 .recipe-description-card:hover .description-title{
     color: white;
-    background-color: rgba(0,0,0,.8);
 }
 
 .recipe-container{
