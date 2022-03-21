@@ -23,12 +23,13 @@
 }
 
 .recipe-card-image{
-    
     object-fit:cover;
     margin-bottom: 0.2rem;
     padding-bottom: 2rem;
     border-top: 0.2rem gray solid;
     transition: transform .5s;
+    height: 20rem;
+    width: 100%;
     overflow: hidden;
 }
 
