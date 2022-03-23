@@ -28,15 +28,15 @@
     padding-bottom: 2rem;
     border-top: 0.2rem gray solid;
     transition: transform .5s;
-    height: 20rem;
     width: 100%;
     overflow: hidden;
 }
 
 .recipe-card {
-    position: relative;
-    height: 20rem;
-    margin-bottom: 2rem;
+    height: 30rem;
+    max-width: 800px;
+    overflow: hidden;
+    margin-bottom: -60px;
 }
 
 .recipe-title{
@@ -54,12 +54,21 @@ a {
     text-decoration: none;
 }
 
+.link-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+
+}
+
 .list-link li {
     list-style: none;
 }
 
 .recipe-card:hover .recipe-card-image{
-    transform: scale(110%);
+    transform: scale(105%);
 }
 
 .recipe-card:hover .recipe-title{
@@ -149,4 +158,30 @@ li {
 .steps-container .mini-title{
     margin-top: 2rem;
     color: salmon;
+}
+
+.navbar{
+    position: fixed;
+    height: 100%;
+    top: 7rem;
+    left: 10rem;
+    padding-top: 15rem;
+    padding-right: 5rem;
+    border-right: 7px lightcoral solid;
+}
+
+.navbar ul{
+    list-style-type: none;
+}
+
+.navbar li{
+    padding: 2rem 0;
+}
+
+.navbar li a{
+    font-size: 2rem;
+}
+
+.navbar li a:hover{
+    color: chocolate;
 }
